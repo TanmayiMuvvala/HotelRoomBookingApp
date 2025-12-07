@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtServiceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Service"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/edtRoomNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Room Number"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/edtTimeSlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preferred Time (e.g., 5 PM)"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edtNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional Notes"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edtServicePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service Price"
+            android:padding="10dp"
+            android:inputType="number"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnConfirmServiceBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Booking"
+            android:textSize="18sp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

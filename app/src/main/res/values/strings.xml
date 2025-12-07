@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hotel Booking</string>
+    <string name="welcome_text">Welcome to Hotel Booking</string>
+    <string name="login_title">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="rooms_button">View Rooms</string>
+    <string name="services_button">Hotel Services</string>
+    <string name="history_button">Booking History</string>
+    <string name="logout_button">Logout</string>
+</resources>
