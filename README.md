@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏨 Hotel Room Booking App
 
 A professional Android hotel booking application with user authentication, room management, service booking, and profile management.
@@ -213,3 +214,6 @@ For issues or questions, please open an issue in the repository.
 **Version**: 1.0  
 **Last Updated**: 2024  
 **Status**: ✅ Production Ready
+=======
+# Hotel-Room-Booking-App
+>>>>>>> 063e885487cd450ca2a6c24660db1efc92677913
